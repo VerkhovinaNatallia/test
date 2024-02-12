@@ -5,11 +5,11 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #6a5be2;
+  background-color: #6b5be24c;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  max-width: 100wh;
 }
 
 .App {
@@ -18,7 +18,10 @@ body {
   padding: 40px;
   background-color: #fff;
   position: relative;
-
+  h1{
+    margin:  20px 0;
+   
+  }
   .result {
     text-align: center;
 
@@ -86,9 +89,6 @@ body {
     z-index: 1;
   }
 
-  h1 {
-    margin: 0;
-  }
 
   ul {
     list-style: none;
